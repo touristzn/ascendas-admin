@@ -1,0 +1,127 @@
+Happy[babel]: Version: 4.0.1. Threads: 4
+Thu, 12 Apr 2018 15:36:37 GMT koa deprecated Support for generators will be removed in v3. See the documentation for examples of how to convert old middleware https://github.com/koajs/koa/blob/master/docs/migration.md at app.js:97:5
+=====server listen on: 8002=====
+Happy[babel]: All set; signaling webpack to proceed.
+Happy[vue]: Version: 4.0.1. Threads: 4
+Happy[vue]: All set; signaling webpack to proceed.
+Happy[happy-less]: Version: 4.0.1. Threads: 2
+Happy[happy-less]: All set; signaling webpack to proceed.
+[BABEL] Note: The code generator has deoptimised the styling of "/Users/season/Documents/work/ascendas-admin/node_modules/element-ui/lib/element-ui.common.js" as it exceeds the max of "500KB".
+webpack built 1fb2398862427f710a0c in 29881ms
+::ffff:127.0.0.1 - - [12/Apr/2018:15:37:12 +0000] "GET / HTTP/1.1" 302 41 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36"
+::ffff:127.0.0.1 - - [12/Apr/2018:15:37:12 +0000] "GET /app/ HTTP/1.1" 200 897 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36"
+::ffff:127.0.0.1 - - [12/Apr/2018:15:37:12 +0000] "GET /zh-CN/api/i18n/localeData.js HTTP/1.1" 200 125 "http://127.0.0.1:8002/app/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36"
+::ffff:127.0.0.1 - - [12/Apr/2018:15:37:13 +0000] "GET /logo.png HTTP/1.1" 200 4178 "http://127.0.0.1:8002/app/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36"
+/js/tryCatch.js.map
+Thu, 12 Apr 2018 15:38:27 GMT http-errors deprecated non-first-argument status code; replace with createError(404, ...) at ../node_modules/koa/lib/context.js:93:11
+{ NotFoundError: Not Found!
+    at Object.throw (/Users/season/Documents/work/ascendas-admin/node_modules/koa/lib/context.js:93:11)
+    at app.use (/Users/season/Documents/work/ascendas-admin/server/app.js:232:12)
+    at dispatch (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:43:18)
+    at allowedMethods (/Users/season/Documents/work/ascendas-admin/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/season/Documents/work/ascendas-admin/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:43:18)
+    at allowedMethods (/Users/season/Documents/work/ascendas-admin/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/season/Documents/work/ascendas-admin/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:43:18) message: 'Not Found!' }
+/js/i18n-s.js.map
+{ NotFoundError: Not Found!
+    at Object.throw (/Users/season/Documents/work/ascendas-admin/node_modules/koa/lib/context.js:93:11)
+    at app.use (/Users/season/Documents/work/ascendas-admin/server/app.js:232:12)
+    at dispatch (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:43:18)
+    at allowedMethods (/Users/season/Documents/work/ascendas-admin/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/season/Documents/work/ascendas-admin/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:43:18)
+    at allowedMethods (/Users/season/Documents/work/ascendas-admin/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/season/Documents/work/ascendas-admin/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/season/Documents/work/ascendas-admin/node_modules/koa-compose/index.js:43:18) message: 'Not Found!' }
+webpack building...
+Happy[babel]: Version: 4.0.1. Threads: 4
+Wed, 16 May 2018 14:05:51 GMT koa deprecated Support for generators will be removed in v3. See the documentation for examples of how to convert old middleware https://github.com/koajs/koa/blob/master/docs/migration.md at app.js:97:5
+=====server listen on: 8002=====
+Happy[babel]: All set; signaling webpack to proceed.
+Happy[vue]: Version: 4.0.1. Threads: 4
+Happy[vue]: All set; signaling webpack to proceed.
+Happy[happy-less]: Version: 4.0.1. Threads: 2
+Happy[happy-less]: All set; signaling webpack to proceed.
+webpack built 18611e55fab45478b46b in 22146ms
+webpack building...
+webpack built e26560fdc516f0ac3906 in 1597ms
+webpack building...
+webpack built 1760617062e9bb33b7c6 in 908ms
+webpack building...
+webpack built 8f2cf206d4761ab4f80e in 798ms
+webpack building...
+webpack built a59dc5a402da3a4fc2ff in 713ms
+webpack building...
+webpack built d96c3ebbac82a1579fbd in 718ms
+webpack building...
+webpack built e6d13287b103941760d1 in 1491ms
+webpack building...
+webpack built 214ad779f06c825a0631 in 937ms
+webpack building...
+webpack built bbdd681e8a858fe1e90b in 853ms
+webpack building...
+webpack built adc471c29cb97d402c1f in 634ms
+webpack building...
+webpack built 36f87cc21af3c85466e1 in 1323ms
+webpack building...
+webpack built 218bd628680f8e29c58c in 1008ms
+Happy[babel]: Version: 4.0.1. Threads: 4
+Wed, 03 Jul 2019 02:09:04 GMT koa deprecated Support for generators will be removed in v3. See the documentation for examples of how to convert old middleware https://github.com/koajs/koa/blob/master/docs/migration.md at app.js:97:5
+=====server listen on: 8002=====
+Happy[babel]: All set; signaling webpack to proceed.
+Happy[vue]: Version: 4.0.1. Threads: 4
+Happy[vue]: All set; signaling webpack to proceed.
+Happy[happy-less]: Version: 4.0.1. Threads: 2
+Happy[happy-less]: All set; signaling webpack to proceed.
+[BABEL] Note: The code generator has deoptimised the styling of "/Users/fannyDu/fanny/ascendas-admin/node_modules/fullcalendar/dist/fullcalendar.js" as it exceeds the max of "500KB".
+{ [Error: ENOENT: no such file or directory, stat '/Users/fannyDu/fanny/ascendas-admin/dist/_view/app.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/Users/fannyDu/fanny/ascendas-admin/dist/_view/app.html' }
+/favicon.ico
+Wed, 03 Jul 2019 02:09:40 GMT http-errors deprecated non-first-argument status code; replace with createError(404, ...) at ../node_modules/koa/lib/context.js:93:11
+{ NotFoundError: Not Found!
+    at Object.throw (/Users/fannyDu/fanny/ascendas-admin/node_modules/koa/lib/context.js:93:11)
+    at app.use (/Users/fannyDu/fanny/ascendas-admin/server/app.js:233:12)
+    at dispatch (/Users/fannyDu/fanny/ascendas-admin/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/fannyDu/fanny/ascendas-admin/node_modules/koa-compose/index.js:43:18)
+    at allowedMethods (/Users/fannyDu/fanny/ascendas-admin/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/fannyDu/fanny/ascendas-admin/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/fannyDu/fanny/ascendas-admin/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/fannyDu/fanny/ascendas-admin/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/fannyDu/fanny/ascendas-admin/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/fannyDu/fanny/ascendas-admin/node_modules/koa-compose/index.js:43:18)
+    at allowedMethods (/Users/fannyDu/fanny/ascendas-admin/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/fannyDu/fanny/ascendas-admin/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/fannyDu/fanny/ascendas-admin/node_modules/koa-compose/index.js:43:18)
+    at dispatch (/Users/fannyDu/fanny/ascendas-admin/node_modules/koa-router/lib/router.js:332:32)
+    at dispatch (/Users/fannyDu/fanny/ascendas-admin/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/fannyDu/fanny/ascendas-admin/node_modules/koa-compose/index.js:43:18) message: 'Not Found!' }
+[BABEL] Note: The code generator has deoptimised the styling of "/Users/fannyDu/fanny/ascendas-admin/node_modules/element-ui/lib/element-ui.common.js" as it exceeds the max of "500KB".
+webpack built 9df2212c49cd3ebf9d3e in 45168ms
+Happy[babel]: Version: 4.0.1. Threads: 4
+Wed, 03 Jul 2019 07:08:27 GMT koa deprecated Support for generators will be removed in v3. See the documentation for examples of how to convert old middleware https://github.com/koajs/koa/blob/master/docs/migration.md at app.js:97:5
+=====server listen on: 8002=====
+Happy[babel]: All set; signaling webpack to proceed.
+Happy[vue]: Version: 4.0.1. Threads: 4
+Happy[vue]: All set; signaling webpack to proceed.
+Happy[happy-less]: Version: 4.0.1. Threads: 2
+Happy[happy-less]: All set; signaling webpack to proceed.
+webpack built 2d9ac7942fb88d44e8dc in 21702ms

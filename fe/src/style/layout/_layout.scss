@@ -1,0 +1,17 @@
+@import "../var/layout.scss";
+
+.sma-padding-lg {
+  padding: $sma-layout-gutter * 3;
+}
+
+.sma-padding-sm {
+  padding: $sma-layout-gutter * 1.5;
+}
+
+.sma-margin-lg {
+  margin: $sma-layout-gutter * 3;
+}
+
+.sma-margin-sm {
+  margin: $sma-layout-gutter * 1.5;
+}

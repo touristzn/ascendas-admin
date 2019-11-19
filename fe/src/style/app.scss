@@ -1,0 +1,128 @@
+@import "~gent.css/scss/normalize/reset";
+
+@import "./var/theme";
+@import "./var/layout";
+@import "./layout/grid";
+@import "./layout/layout";
+@import "./util/box";
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei";
+  background: $sma-bg-page;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+a, a:hover, a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.white {
+  color:#fff;
+}
+
+// element 样式覆盖
+// 卡片布局
+.el-card {
+  border-radius: 0;
+  box-shadow: 0 0px 1px 0 rgba(0,0,0,.1);
+
+  .el-card__header {
+    display: flex;
+    padding: $sma-layout-gutter * 3;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .el-card__body {
+    padding: $sma-layout-gutter * 3;
+  }
+}
+
+// 弹窗样式整体重设
+.el-dialog__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.el-dialog {
+  min-height: 300px;
+  max-height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin: 0!important;
+
+  .el-dialog__footer {
+    border-top: 1px solid #ddd;
+  }
+
+  .el-dialog__header {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .el-dialog__body {
+    flex: 1;
+    overflow: auto;
+    position: relative;
+
+    .loading-cover {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}
+
+// 左边距换行左边对不齐
+.el-checkbox,
+.el-checkbox+.el-checkbox {
+  margin-left: 0;
+  margin-right: 30px;
+}
+
+// 换行bug
+.el-dropdown {
+  .el-button-group {
+    white-space: nowrap;
+  }
+}
+
+// table
+.el-table-column--selection {
+  .el-checkbox {
+    margin: 0;
+  }
+}
+
+// 按钮
+.el-button--mini.is-circle {
+  padding: 7px;
+} 
+
+.el-button--small.is-circle {
+  padding: 9px;
+} 
+
+.el-button--medium.is-circle {
+  padding: 10px;
+} 
+
+// loading 显示中间会遮挡的情况
+.sma-loading-top {
+  > .el-loading-mask > .el-loading-spinner {
+    top: 50px;
+  }
+}
+

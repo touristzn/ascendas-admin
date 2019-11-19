@@ -1,0 +1,17 @@
+@mixin sma-grid($n) {
+  @for $i from 1 through $n {
+    .sma-grid-#{$n}-#{$i} { 
+      width: $i / $n * 100 + '%'; 
+    }
+  }
+}
+
+@mixin sma-grid-media($n, $media, $flag) {
+  @media #{$media} {
+    @for $i from 1 through $n {
+      .sma-grid-#{$n}-#{$flag}-#{$i} { 
+        width: $i / $n * 100 + '%'; 
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+<script>
+  // 浏览语言
+  (function() {
+    var getQueryVariable = function(variable) {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+      for (var i=0; i<vars.length; i++) {
+        var pair = vars[i].split("=");
+        if(pair.length == 2 && pair[0] == variable){
+          return pair[1];
+        }
+      }
+      return null;
+    };
+    var languageMap = {
+      'zh-CN': 'zh-CN',
+      'en-US': 'en-US',
+      'zh': 'zh-CN',
+      'en': 'en-US'
+    };
+    var urlLanguage = getQueryVariable('language');
+    var navigatorLanguage = navigator.language || navigator.browserLanguage;
+    var language = 'zh-CN';
+    var isLanguageWithUrl = false;
+    var buildTime = REPLACE_BUILD_TIME;
+    var publicPath = 'REPLACE_PUBLIC_PATH';
+
+    if (languageMap[urlLanguage]) {
+      language = languageMap[urlLanguage];
+    } else if (languageMap[navigatorLanguage]) {
+      language = languageMap[navigatorLanguage];
+    }
+
+    window.pageConfig = window.pageConfig || {};
+    window.pageConfig.language = language;
+    window.pageConfig.isLanguageWithUrl = isLanguageWithUrl;
+
+    // 加载翻译数据
+    document.write('<script src="'+ publicPath +'i18n-data/'+ language +'.js?'+ buildTime +'"><\/script>');
+  })();
+</script>

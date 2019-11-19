@@ -1,0 +1,47 @@
+// 页面背景
+$sma-bg-page: #eaedf1;
+
+// 内容区背景
+$sma-bg-con: #fff;
+
+// side
+$sma-side-bg: rgb(1, 29, 55);
+$sma-side-bg-logo: rgb(0, 33, 64);
+$sma-side-bg-children: rgb(0, 12, 23);
+$sma-side-bg-active: rgb(24, 144, 255);
+$sma-side-color: rgba(255, 255, 255, .65);
+$sma-side-color-em: rgba(255, 255, 255, 1);
+$sma-side-shadow: rgba(0, 21, 41, 0.35) 2px 0px 6px;
+
+// snav
+$sma-snav-bg: #fff;
+$sma-snav-bg-toggle: #eee;
+$sma-snav-bg-toggle-folded: #fff;
+$sma-snav-bg-active: rgb(58, 155, 245);
+$sma-snav-color: #5a5e66;
+$sma-snav-color-em: rgb(0, 12, 23);
+$sma-snav-color-active: #fff;
+
+// top
+$sma-top-bg: #fff;
+$sma-top-bg-hover: rgb(230, 247, 255);
+$sma-top-bg-active: rgb(58, 155, 245);
+$sma-top-mod: #eee;
+$sma-top-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+$sma-top-color: rgba(0, 0, 0, 0.65);
+$sma-top-color-em: rgba(0, 0, 0, 1);
+$sma-top-color-active: #fff;
+
+// text color
+// 主色
+$sma-color-main: #5a5e66;
+// 强调色
+$sma-color-em: #000;
+// 辅助色
+$sma-color-help: #999;
+
+$sma-color-primary: rgb(0, 195, 222);
+$sma-color-success: #67c23a;
+$sma-color-info: #878d99;
+$sma-color-warning: #eb9e05;
+$sma-color-danger: #fa5555;

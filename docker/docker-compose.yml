@@ -1,0 +1,8 @@
+web:
+  image: nginx
+  ports:
+   - "8080:80"
+  environment:
+   - NGINX_HOST=caas.nakedhub.com
+   - NGINX_PORT=80
+  command: /bin/bash -c "envsubst < /etc/nginx/conf.d/vhosts.conf.template  > /etc/nginx/conf.d/vhosts.conf && nginx -g 'daemon off;'"

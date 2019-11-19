@@ -1,0 +1,22 @@
+@import "../base";
+
+body {
+  min-height: 100%;
+  overflow: auto;
+  
+}
+.el-date-editor.el-input{
+  width: 100%;
+}
+.el-select{
+  width: 100%;
+}
+.el-button{
+  width: 100%;
+  
+}
+.showtip{
+  color: #409EFF;
+  font-size: 30px;
+  text-align: center;
+}
